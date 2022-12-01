@@ -9,6 +9,8 @@ const snakeColor = "lightgreen"
 const snakeBorder = "black";
 const foodColor = "red";
 const unitSize = 25;
+/* This const are to give constant variables that I used throughout the codes to determine the important factore in the game.
+e.g: the boardsize, width, height, position, gameboard, snake color, length when it eats, the functions e.t.c.*/
 let running = false;
 let xVelocity = unitSize;
 let yVelocity = 0;
